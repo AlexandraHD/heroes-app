@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const HeroCard = ({ ...hero }) => {
 
-    const heroeImageUrl = `/heroes/${ hero.id }.jpg`;
+    const heroeImageUrl = `../heroes/${ hero.id }.jpg`;
 
   return (
     <div className="animate__animated animate__fadeIn">
